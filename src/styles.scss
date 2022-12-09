@@ -1,0 +1,12 @@
+@use "colors";
+
+// reset.css
+@import url("https://meyerweb.com/eric/tools/css/reset/reset.css");
+
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+
+    color: colors.$foreground;
+    background-color: colors.$background;
+}
